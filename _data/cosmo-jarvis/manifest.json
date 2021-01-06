@@ -1,0 +1,921 @@
+{
+  "@context" : ["http://iiif.io/api/auth/1/context.json", "http://iiif.io/api/presentation/3/context.json"],
+  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000002/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : ["Cosmo Jarvis"]
+  },
+  "metadata" : [{
+      "label" : {
+        "en" : ["Full title"]
+      },
+      "value" : {
+        "en" : ["Cosmo Jarvis"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Date"]
+      },
+      "value" : {
+        "en" : ["2006? (recorded)"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Collection"]
+      },
+      "value" : {
+        "en" : ["Glastonbury New Bands Competition collection"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Format"]
+      },
+      "value" : {
+        "en" : ["1 CD-R"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Usage"]
+      },
+      "value" : {
+        "en" : ["<span>Rights unassigned - staff access only</span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Held by"]
+      },
+      "value" : {
+        "en" : ["The British Library"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitised by"]
+      },
+      "value" : {
+        "en" : ["British Library, 2019"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitisation funded by"]
+      },
+      "value" : {
+        "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Identifier"]
+      },
+      "value" : {
+        "en" : ["C1238/1882"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Shelfmark"]
+      },
+      "value" : {
+        "en" : ["C1238/1882"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Link to catalogue"]
+      },
+      "value" : {
+        "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7318975'>View the catalogue record</a>"]
+      }
+    }],
+  "requiredStatement" : {
+    "label" : {
+      "en" : ["Copyright and Usage"]
+    },
+    "value" : {
+      "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7318975\">Please read the full information about this object</a><br>Rights unassigned - staff access only</span>"]
+    }
+  },
+  "provider" : [{
+      "id" : "https://www.bl.uk/about-us",
+      "type" : "Agent",
+      "label" : {
+        "en" : ["The British Library"]
+      },
+      "homepage" : [{
+          "id" : "https://www.bl.uk/",
+          "type" : "Text",
+          "format" : "text/html",
+          "label" : {
+            "en" : ["The British Library"]
+          }
+        }],
+      "logo" : [{
+          "id" : "https://www.bl.uk/images/bl_logo_100.gif",
+          "type" : "Image",
+          "format" : "image/gif"
+        }]
+    }],
+  "service" : [{
+      "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+      "type" : "AuthCookieService1",
+      "profile" : "http://iiif.io/api/auth/1/login",
+      "description" : {
+        "en" : ["Some portions of this recording may be unavailable due to rights restrictions."]
+      },
+      "header" : {
+        "en" : ["Please Log-In"]
+      },
+      "label" : {
+        "en" : ["Login to The British Library"]
+      },
+      "service" : [{
+          "id" : "https://apiirc.ad.bl.uk/auth/iiif/token",
+          "type" : "AuthTokenService1",
+          "profile" : "http://iiif.io/api/auth/1/token"
+        }]
+    }, {
+      "id" : "http://access.bl.uk/item/share/ark:/81055/vdc_100093317955.0x000002",
+      "type" : "Service",
+      "profile" : "http://universalviewer.io/share-extensions-profile"
+    }],
+  "homepage" : [{
+      "id" : "http://access.bl.uk/item/viewer/ark:/81055/vdc_100093317955.0x000002",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : ["View at the British Library"]
+      }
+    }],
+  "behavior" : ["auto-advance"],
+  "items" : [{
+      "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000004",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Disc 1 Side 1"]
+      },
+      "duration" : 823.6,
+      "items" : [{
+          "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000004/anno1",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000004/anno1/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000004#t=00.00,229.68",
+              "body" : {
+                "type" : "Choice",
+                "items" : [{
+                    "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/vdc_100093317955.0x00000f/manifest.mpd",
+                    "format" : "application/dash+xml",
+                    "type" : "Sound",
+                    "service" : [{
+                        "id" : "https://apiirc.ad.bl.uk/media/dash/ark:/81055/vdc_100093317955.0x00000f/probe.json",
+                        "type" : "AuthProbeService1",
+                        "profile" : "http://iiif.io/api/auth/1/probe"
+                      }]
+                  }, {
+                    "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/vdc_100093317955.0x00000f/index.m3u8",
+                    "format" : "application/vnd.apple.mpegURL",
+                    "type" : "Sound",
+                    "service" : [{
+                        "id" : "https://apiirc.ad.bl.uk/media/hls/ark:/81055/vdc_100093317955.0x00000f/probe.json",
+                        "type" : "AuthProbeService1",
+                        "profile" : "http://iiif.io/api/auth/1/probe"
+                      }]
+                  }]
+              },
+              "seeAlso" : [{
+                  "id" : "https://iiif-waveforms.s3.amazonaws.com/vdc_100093317955.0x00000e.dat",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }, {
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000004/anno1/2",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000004#t=229.68,435.64",
+              "body" : {
+                "type" : "Choice",
+                "items" : [{
+                    "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/vdc_100093317955.0x000011/manifest.mpd",
+                    "format" : "application/dash+xml",
+                    "type" : "Sound",
+                    "service" : [{
+                        "id" : "https://apiirc.ad.bl.uk/media/dash/ark:/81055/vdc_100093317955.0x000011/probe.json",
+                        "type" : "AuthProbeService1",
+                        "profile" : "http://iiif.io/api/auth/1/probe"
+                      }]
+                  }, {
+                    "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/vdc_100093317955.0x000011/index.m3u8",
+                    "format" : "application/vnd.apple.mpegURL",
+                    "type" : "Sound",
+                    "service" : [{
+                        "id" : "https://apiirc.ad.bl.uk/media/hls/ark:/81055/vdc_100093317955.0x000011/probe.json",
+                        "type" : "AuthProbeService1",
+                        "profile" : "http://iiif.io/api/auth/1/probe"
+                      }]
+                  }]
+              },
+              "seeAlso" : [{
+                  "id" : "https://iiif-waveforms.s3.amazonaws.com/vdc_100093317955.0x000010.dat",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }, {
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000004/anno1/3",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000004#t=435.64,643.68",
+              "body" : {
+                "type" : "Choice",
+                "items" : [{
+                    "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/vdc_100093317955.0x000013/manifest.mpd",
+                    "format" : "application/dash+xml",
+                    "type" : "Sound",
+                    "service" : [{
+                        "id" : "https://apiirc.ad.bl.uk/media/dash/ark:/81055/vdc_100093317955.0x000013/probe.json",
+                        "type" : "AuthProbeService1",
+                        "profile" : "http://iiif.io/api/auth/1/probe"
+                      }]
+                  }, {
+                    "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/vdc_100093317955.0x000013/index.m3u8",
+                    "format" : "application/vnd.apple.mpegURL",
+                    "type" : "Sound",
+                    "service" : [{
+                        "id" : "https://apiirc.ad.bl.uk/media/hls/ark:/81055/vdc_100093317955.0x000013/probe.json",
+                        "type" : "AuthProbeService1",
+                        "profile" : "http://iiif.io/api/auth/1/probe"
+                      }]
+                  }]
+              },
+              "seeAlso" : [{
+                  "id" : "https://iiif-waveforms.s3.amazonaws.com/vdc_100093317955.0x000012.dat",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }, {
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000004/anno1/4",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000004#t=643.68,823.60",
+              "body" : {
+                "type" : "Choice",
+                "items" : [{
+                    "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/vdc_100093317955.0x000015/manifest.mpd",
+                    "format" : "application/dash+xml",
+                    "type" : "Sound",
+                    "service" : [{
+                        "id" : "https://apiirc.ad.bl.uk/media/dash/ark:/81055/vdc_100093317955.0x000015/probe.json",
+                        "type" : "AuthProbeService1",
+                        "profile" : "http://iiif.io/api/auth/1/probe"
+                      }]
+                  }, {
+                    "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/vdc_100093317955.0x000015/index.m3u8",
+                    "format" : "application/vnd.apple.mpegURL",
+                    "type" : "Sound",
+                    "service" : [{
+                        "id" : "https://apiirc.ad.bl.uk/media/hls/ark:/81055/vdc_100093317955.0x000015/probe.json",
+                        "type" : "AuthProbeService1",
+                        "profile" : "http://iiif.io/api/auth/1/probe"
+                      }]
+                  }]
+              },
+              "seeAlso" : [{
+                  "id" : "https://iiif-waveforms.s3.amazonaws.com/vdc_100093317955.0x000014.dat",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }]
+    }],
+  "structures" : [{
+      "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000002/top",
+      "type" : "Range",
+      "label" : {
+        "en" : ["Cosmo Jarvis (13:43)"]
+      },
+      "metadata" : [{
+          "label" : {
+            "en" : ["Full title"]
+          },
+          "value" : {
+            "en" : ["Cosmo Jarvis"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Date"]
+          },
+          "value" : {
+            "en" : ["2006? (recorded)"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Collection"]
+          },
+          "value" : {
+            "en" : ["Glastonbury New Bands Competition collection"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Format"]
+          },
+          "value" : {
+            "en" : ["1 CD-R"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Usage"]
+          },
+          "value" : {
+            "en" : ["<span>Rights unassigned - staff access only</span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Held by"]
+          },
+          "value" : {
+            "en" : ["The British Library"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitised by"]
+          },
+          "value" : {
+            "en" : ["British Library, 2019"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitisation funded by"]
+          },
+          "value" : {
+            "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Identifier"]
+          },
+          "value" : {
+            "en" : ["C1238/1882"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Shelfmark"]
+          },
+          "value" : {
+            "en" : ["C1238/1882"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Link to catalogue"]
+          },
+          "value" : {
+            "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7318975'>View the catalogue record</a>"]
+          }
+        }],
+      "requiredStatement" : {
+        "label" : {
+          "en" : ["Copyright and Usage"]
+        },
+        "value" : {
+          "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7318975\">Please read the full information about this object</a><br>Rights unassigned - staff access only</span>"]
+        }
+      },
+      "rendering" : [{
+          "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/vdc_100093317955.0x000002/ark:/81055/vdc_100093317955.0x000002/top",
+          "type" : "Audio",
+          "label" : {
+            "en" : ["Download this recording"]
+          },
+          "format" : "audio/mp4"
+        }],
+      "items" : [{
+          "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000005",
+          "type" : "Range",
+          "label" : {
+            "en" : ["Valley Town (03:49)"]
+          },
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["Valley Town"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["Cosmo Jarvis"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Date"]
+              },
+              "value" : {
+                "en" : ["2006? (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Place of creation"]
+              },
+              "value" : {
+                "en" : ["[unknown] (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Duration"]
+              },
+              "value" : {
+                "en" : ["3 min. 49 sec."]
+              }
+            }, {
+              "label" : {
+                "en" : ["Collection"]
+              },
+              "value" : {
+                "en" : ["Glastonbury New Bands Competition collection"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Demo recordings", "Popular music"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>Rights unassigned - staff access only</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["The British Library"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitised by"]
+              },
+              "value" : {
+                "en" : ["British Library, 2019"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitisation funded by"]
+              },
+              "value" : {
+                "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["C1238/1882 BD1"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["C1238/1882"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7318977'>View the catalogue record</a>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Description"]
+              },
+              "value" : {
+                "en" : ["Demo recording submitted by the group to the Glastonbury Festivals Emerging Talent Competition 2007.", "Musical style is: Acoustic", "Line-up includes: Cosmo Jarvis"]
+              }
+            }],
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7318977\">Please read the full information about this object</a><br>Rights unassigned - staff access only</span>"]
+            }
+          },
+          "rendering" : [{
+              "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/vdc_100093317955.0x000002/ark:/81055/vdc_100093317955.0x000005",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "items" : [{
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000004#t=0.00,229.68",
+              "type" : "Canvas"
+            }]
+        }, {
+          "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000007",
+          "type" : "Range",
+          "label" : {
+            "en" : ["My Revolution (03:25)"]
+          },
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["My Revolution"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["Cosmo Jarvis"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Date"]
+              },
+              "value" : {
+                "en" : ["2006? (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Place of creation"]
+              },
+              "value" : {
+                "en" : ["[unknown] (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Duration"]
+              },
+              "value" : {
+                "en" : ["3 min. 25 sec."]
+              }
+            }, {
+              "label" : {
+                "en" : ["Collection"]
+              },
+              "value" : {
+                "en" : ["Glastonbury New Bands Competition collection"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Demo recordings", "Popular music"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>Rights unassigned - staff access only</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["The British Library"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitised by"]
+              },
+              "value" : {
+                "en" : ["British Library, 2019"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitisation funded by"]
+              },
+              "value" : {
+                "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["C1238/1882 BD2"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["C1238/1882"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8395873'>View the catalogue record</a>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Description"]
+              },
+              "value" : {
+                "en" : ["Demo recording submitted by the group to the Glastonbury Festivals Emerging Talent Competition 2007.", "Musical style is: Acoustic", "Line-up includes: Cosmo Jarvis"]
+              }
+            }],
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8395873\">Please read the full information about this object</a><br>Rights unassigned - staff access only</span>"]
+            }
+          },
+          "rendering" : [{
+              "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/vdc_100093317955.0x000002/ark:/81055/vdc_100093317955.0x000007",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "items" : [{
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000004#t=229.68,435.64",
+              "type" : "Canvas"
+            }]
+        }, {
+          "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000009",
+          "type" : "Range",
+          "label" : {
+            "en" : ["We don't have to hold Hands (03:28)"]
+          },
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["We don't have to hold Hands"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["Cosmo Jarvis"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Date"]
+              },
+              "value" : {
+                "en" : ["2006? (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Place of creation"]
+              },
+              "value" : {
+                "en" : ["[unknown] (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Duration"]
+              },
+              "value" : {
+                "en" : ["3 min. 28 sec."]
+              }
+            }, {
+              "label" : {
+                "en" : ["Collection"]
+              },
+              "value" : {
+                "en" : ["Glastonbury New Bands Competition collection"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Demo recordings", "Popular music"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>Rights unassigned - staff access only</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["The British Library"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitised by"]
+              },
+              "value" : {
+                "en" : ["British Library, 2019"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitisation funded by"]
+              },
+              "value" : {
+                "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["C1238/1882 BD3"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["C1238/1882"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8395872'>View the catalogue record</a>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Description"]
+              },
+              "value" : {
+                "en" : ["Demo recording submitted by the group to the Glastonbury Festivals Emerging Talent Competition 2007.", "Musical style is: Acoustic", "Line-up includes: Cosmo Jarvis"]
+              }
+            }],
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8395872\">Please read the full information about this object</a><br>Rights unassigned - staff access only</span>"]
+            }
+          },
+          "rendering" : [{
+              "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/vdc_100093317955.0x000002/ark:/81055/vdc_100093317955.0x000009",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "items" : [{
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000004#t=435.64,643.68",
+              "type" : "Canvas"
+            }]
+        }, {
+          "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x00000b",
+          "type" : "Range",
+          "label" : {
+            "en" : ["We can split the Nation (02:59)"]
+          },
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["We can split the Nation"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["Cosmo Jarvis"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Date"]
+              },
+              "value" : {
+                "en" : ["2006? (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Place of creation"]
+              },
+              "value" : {
+                "en" : ["[unknown] (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Duration"]
+              },
+              "value" : {
+                "en" : ["2 min. 59 sec."]
+              }
+            }, {
+              "label" : {
+                "en" : ["Collection"]
+              },
+              "value" : {
+                "en" : ["Glastonbury New Bands Competition collection"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Demo recordings", "Popular music"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>Rights unassigned - staff access only</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["The British Library"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitised by"]
+              },
+              "value" : {
+                "en" : ["British Library, 2019"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitisation funded by"]
+              },
+              "value" : {
+                "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["C1238/1882 BD4"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["C1238/1882"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8395871'>View the catalogue record</a>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Description"]
+              },
+              "value" : {
+                "en" : ["Demo recording submitted by the group to the Glastonbury Festivals Emerging Talent Competition 2007.", "Musical style is: Acoustic", "Line-up includes: Cosmo Jarvis"]
+              }
+            }],
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8395871\">Please read the full information about this object</a><br>Rights unassigned - staff access only</span>"]
+            }
+          },
+          "rendering" : [{
+              "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/vdc_100093317955.0x000002/ark:/81055/vdc_100093317955.0x00000b",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "items" : [{
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/vdc_100093317955.0x000004#t=643.68,823.60",
+              "type" : "Canvas"
+            }]
+        }]
+    }]
+}
