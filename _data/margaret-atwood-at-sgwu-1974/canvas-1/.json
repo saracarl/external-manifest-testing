@@ -14,14 +14,14 @@
       ],
       "body": {
         "type": "TextualBody",
-        "value": "Introduction",
+        "value": "breath",
         "format": "text/plain"
       },
       "target": {
         "source": "https://saracarl.github.io/external-manifest-testing/margaret-atwood-at-sgwu-1974/canvas-1/canvas",
         "selector": {
-          "type": "RangeSelector",
-          "t": "﻿0.842000,33.078555"
+          "type": "PointSelector",
+          "t": "27.660653"
         }
       }
     },
@@ -35,14 +35,14 @@
       ],
       "body": {
         "type": "TextualBody",
-        "value": "Timestamp of first recording: 16:00",
+        "value": "breath",
         "format": "text/plain"
       },
       "target": {
         "source": "https://saracarl.github.io/external-manifest-testing/margaret-atwood-at-sgwu-1974/canvas-1/canvas",
         "selector": {
-          "type": "RangeSelector",
-          "t": "33.679983,36.80741"
+          "type": "PointSelector",
+          "t": "34.469602"
         }
       }
     },
@@ -56,14 +56,14 @@
       ],
       "body": {
         "type": "TextualBody",
-        "value": "First unmodulated signal recording",
+        "value": "breath (?)",
         "format": "text/plain"
       },
       "target": {
         "source": "https://saracarl.github.io/external-manifest-testing/margaret-atwood-at-sgwu-1974/canvas-1/canvas",
         "selector": {
           "type": "PointSelector",
-          "t": "54.729973"
+          "t": "37.700777"
         }
       }
     },
@@ -77,14 +77,14 @@
       ],
       "body": {
         "type": "TextualBody",
-        "value": "Timestamp of second recording: 23:20",
+        "value": "page turn",
         "format": "text/plain"
       },
       "target": {
         "source": "https://saracarl.github.io/external-manifest-testing/margaret-atwood-at-sgwu-1974/canvas-1/canvas",
         "selector": {
           "type": "PointSelector",
-          "t": "56.774829"
+          "t": "102.950403"
         }
       }
     },
@@ -98,14 +98,14 @@
       ],
       "body": {
         "type": "TextualBody",
-        "value": "Second unmodulated signal recording",
+        "value": "\"her quoted kind\"",
         "format": "text/plain"
       },
       "target": {
         "source": "https://saracarl.github.io/external-manifest-testing/margaret-atwood-at-sgwu-1974/canvas-1/canvas",
         "selector": {
           "type": "RangeSelector",
-          "t": "57.49654,74.456820"
+          "t": "46.734653,47.875068"
         }
       }
     },
@@ -119,14 +119,14 @@
       ],
       "body": {
         "type": "TextualBody",
-        "value": "Timestamp of third recoring: 02:30",
+        "value": "\"her kind\"",
         "format": "text/plain"
       },
       "target": {
         "source": "https://saracarl.github.io/external-manifest-testing/margaret-atwood-at-sgwu-1974/canvas-1/canvas",
         "selector": {
           "type": "RangeSelector",
-          "t": "75.058248,76.862533"
+          "t": "72.159199,72.964197"
         }
       }
     },
@@ -140,14 +140,14 @@
       ],
       "body": {
         "type": "TextualBody",
-        "value": "Third unmodulated signal recording",
+        "value": "\"her kind\"",
         "format": "text/plain"
       },
       "target": {
         "source": "https://saracarl.github.io/external-manifest-testing/margaret-atwood-at-sgwu-1974/canvas-1/canvas",
         "selector": {
-          "type": "PointSelector",
-          "t": "103.445663"
+          "type": "RangeSelector",
+          "t": "99.998741,101.027350"
         }
       }
     },
@@ -161,14 +161,14 @@
       ],
       "body": {
         "type": "TextualBody",
-        "value": "Timestamp of fourth recording: 05:50",
+        "value": "Introduction",
         "format": "text/plain"
       },
       "target": {
         "source": "https://saracarl.github.io/external-manifest-testing/margaret-atwood-at-sgwu-1974/canvas-1/canvas",
         "selector": {
-          "type": "PointSelector",
-          "t": "106.091947"
+          "type": "RangeSelector",
+          "t": "0.250000,15.540949"
         }
       }
     },
@@ -182,14 +182,14 @@
       ],
       "body": {
         "type": "TextualBody",
-        "value": "Fourth unmodulated signal recording",
+        "value": "title",
         "format": "text/plain"
       },
       "target": {
         "source": "https://saracarl.github.io/external-manifest-testing/margaret-atwood-at-sgwu-1974/canvas-1/canvas",
         "selector": {
           "type": "RangeSelector",
-          "t": "106.693376,127.743365"
+          "t": "19.200000,20.050000"
         }
       }
     },
@@ -203,14 +203,56 @@
       ],
       "body": {
         "type": "TextualBody",
-        "value": "Conclusion",
+        "value": "stanza 1",
         "format": "text/plain"
       },
       "target": {
         "source": "https://saracarl.github.io/external-manifest-testing/margaret-atwood-at-sgwu-1974/canvas-1/canvas",
         "selector": {
           "type": "RangeSelector",
-          "t": "127.743365,162.746491"
+          "t": "21.320000,47.875068"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://saracarl.github.io/external-manifest-testing/margaret-atwood-at-sgwu-1974/canvas-1/canvas/-annotation-10.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "stanza 2",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://saracarl.github.io/external-manifest-testing/margaret-atwood-at-sgwu-1974/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "48.570000,72.964197"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://saracarl.github.io/external-manifest-testing/margaret-atwood-at-sgwu-1974/canvas-1/canvas/-annotation-11.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "stanza 3",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://saracarl.github.io/external-manifest-testing/margaret-atwood-at-sgwu-1974/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "76.260000,101.027350"
         }
       }
     }
